@@ -1,0 +1,312 @@
+{
+    "benchmarks":{        
+        "F1":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"elliptic",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F2":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"rosenbrock",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F3":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"schewefel",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F4":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"griewank",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        },      
+        "F5":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"elliptic",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F6":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"rosenbrock",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F7":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"schewefel",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F8":{
+            "node_num":20,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"griewank",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        },       
+        "F9":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"elliptic",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F10":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"rosenbrock",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F11":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"schewefel",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F12":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"griewank",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        },      
+        "F13":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"elliptic",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F14":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"rosenbrock",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F15":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"schewefel",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F16":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"griewank",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        },   
+        "F17":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"elliptic",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F18":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"rosenbrock",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F19":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"schewefel",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        }, 
+        "F20":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"griewank",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":10,
+            "if_shift":true
+        },      
+        "F21":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"elliptic",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F22":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"rosenbrock",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F23":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"schewefel",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        }, 
+        "F24":{
+            "node_num":81,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":"griewank",
+            "if_rotate":true,
+			"heterogeneous":false,
+            "weight":100,
+            "if_shift":true
+        },      
+        "F25":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":["elliptic","rosenbrock"],
+            "if_rotate":true,
+			"heterogeneous":true,
+            "weight":10,
+            "if_shift":true
+        },
+        "F26":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":["elliptic","schwefel"],
+            "if_rotate":true,
+			"heterogeneous":true,
+            "weight":10,
+            "if_shift":true
+        },
+        "F27":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":["rosenbrock","schwefel"],
+            "if_rotate":true,
+			"heterogeneous":true,
+            "weight":10,
+            "if_shift":true
+        },
+        "F28":{
+            "node_num":40,
+            "dimension":100,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "base_function":["rosenbrock","griewank"],
+            "if_rotate":true,
+			"heterogeneous":true,
+            "weight":10,
+            "if_shift":true
+        }
+    }
+}

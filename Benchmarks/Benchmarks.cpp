@@ -31,12 +31,12 @@ Benchmarks::Benchmarks(string ID,int max_eva_times){
     weight = func_config["weight"];
     int dim = func_config["dimension"];
 
-    A = read_data<double>(data_path+"A_"+to_string(this->node_num)+"n"+to_string(dim)+"D");
-    W = read_data<double>(data_path+"W_"+to_string(this->node_num)+"n");
+    A = read_data<double>(data_path+"A_"+funcID);
+    W = read_data<double>(data_path+"W_"+funcID);
     if(if_rotate == true)
-        R_global = read_data<double>(data_path+"R_"+to_string(dim)+"D");    
+        R_global = read_data<double>(data_path+"R_"+funcID);    
     if(if_shift == true)
-        xopt = read_data<double>(data_path+"xopt_"+to_string(dim)+"D");
+        xopt = read_data<double>(data_path+"xopt_"+funcID);
     else{
         int len = getDimension();
         xopt = new double*[1];

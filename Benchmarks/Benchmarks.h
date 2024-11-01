@@ -28,7 +28,7 @@ public:
 	int max_eva_times;
 	int eva_count;
 	bool reach_max_eva_times;
-	Benchmarks(string ID,int max_eva_times = 3000000);
+	Benchmarks(string ID,int max_eva_times = 100000);
 	~Benchmarks();
 	double global_eva(double* x);
 	double local_eva(double* x, int groupIndex);

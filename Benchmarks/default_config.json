@@ -1,7 +1,7 @@
 {
     "benchmarks":{
-        "100D20n3d-1":{
-            "group_num":20,
+        "F1":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -14,8 +14,8 @@
             "opt":0,
             "if_shift":true
         },
-        "100D20n3d-2":{
-            "group_num":20,
+        "F2":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -28,8 +28,8 @@
             "opt":0,
             "if_shift":true
         },
-        "100D20n3d-3":{
-            "group_num":20,
+        "F3":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -42,50 +42,8 @@
             "opt":0,
             "if_shift":true
         },
-        "100D20n3dheter-1":{
-            "group_num":20,
-            "dimension":100,
-			"conforming":false,
-            "upper_bound": 100,
-            "lower_bound": -100, 
-            "funcClass":2,
-            "base_function":["elliptic","schwefel"],
-            "if_rotate":true,
-			"heterogeneous":true,
-            "weight":100,
-            "opt":0,
-            "if_shift":true
-        },
-        "100D20n3dheter-2":{
-            "group_num":20,
-            "dimension":100,
-			"conforming":false,
-            "upper_bound": 100,
-            "lower_bound": -100, 
-            "funcClass":2,
-            "base_function":["elliptic","rosenbrock"],
-            "if_rotate":true,
-			"heterogeneous":true,
-            "weight":100,
-            "opt":0,
-            "if_shift":true
-        },
-        "100D20n3dheter-3":{
-            "group_num":20,
-            "dimension":100,
-			"conforming":false,
-            "upper_bound": 100,
-            "lower_bound": -100, 
-            "funcClass":2,
-            "base_function":["schwefel","rosenbrock"],
-            "if_rotate":true,
-            "heterogeneous":true,
-            "weight":100,
-            "opt":0,
-            "if_shift":true
-        },
-        "100D20n3d-6":{
-            "group_num":20,
+        "F4":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -98,8 +56,50 @@
             "opt":0,
             "if_shift":true
         },
-        "100D20n3dheter-4":{
-            "group_num":20,
+        "F5":{
+            "node_num":20,
+            "dimension":100,
+			"conforming":false,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "funcClass":2,
+            "base_function":["elliptic","schwefel"],
+            "if_rotate":true,
+			"heterogeneous":true,
+            "weight":100,
+            "opt":0,
+            "if_shift":true
+        },
+        "F6":{
+            "node_num":20,
+            "dimension":100,
+			"conforming":false,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "funcClass":2,
+            "base_function":["elliptic","rosenbrock"],
+            "if_rotate":true,
+			"heterogeneous":true,
+            "weight":100,
+            "opt":0,
+            "if_shift":true
+        },
+        "F7":{
+            "node_num":20,
+            "dimension":100,
+			"conforming":false,
+            "upper_bound": 100,
+            "lower_bound": -100, 
+            "funcClass":2,
+            "base_function":["schwefel","rosenbrock"],
+            "if_rotate":true,
+            "heterogeneous":true,
+            "weight":100,
+            "opt":0,
+            "if_shift":true
+        },
+        "F8":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -112,8 +112,8 @@
             "opt":0,
             "if_shift":true
         },
-        "100D20n3dheter-5":{
-            "group_num":20,
+        "F9":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -126,8 +126,8 @@
             "opt":0,
             "if_shift":true
         },
-        "100D20n3dheter-6":{
-            "group_num":20,
+        "F10":{
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,

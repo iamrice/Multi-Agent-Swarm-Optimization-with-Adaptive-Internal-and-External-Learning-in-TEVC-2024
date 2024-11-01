@@ -6,7 +6,7 @@ cd ./TEVC2024-MASOIE
 
 mpic++ -std=c++11 MASOIE.cpp ../framework/framework.cpp ../framework/main.cpp ../Benchmarks/Benchmarks.cpp -o masoie
 
-mpirun -np 20 ./masoie 100D20n3d-1
+mpirun -np 20 ./masoie F1
 
 ```
 

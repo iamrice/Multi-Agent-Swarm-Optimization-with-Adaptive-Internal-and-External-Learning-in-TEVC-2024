@@ -135,6 +135,8 @@ void agent_function(Framework* handler){
             best_inv_fit = swarm_fit.minCoeff();
         }
         
+        // cout<<iter<<" "<<best_inv_fit<<endl;
+        
         // termination decision
         if(external_swarm_v.array().abs().sum() < termination_threshold || handler->reachMaxEva()){
             // cout<<"terminate "<<handler->agent_id<<" "<<external_swarm_v.array().abs().sum()<<" "<<iter<<" "<<interval<<endl;

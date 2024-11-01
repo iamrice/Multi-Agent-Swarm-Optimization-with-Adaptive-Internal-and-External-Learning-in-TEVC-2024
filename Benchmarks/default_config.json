@@ -1,7 +1,7 @@
 {
     "benchmarks":{
         "100D20n3d-1":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -15,7 +15,7 @@
             "if_shift":true
         },
         "100D20n3d-2":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -29,7 +29,7 @@
             "if_shift":true
         },
         "100D20n3d-3":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -43,7 +43,7 @@
             "if_shift":true
         },
         "100D20n3dheter-1":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -57,7 +57,7 @@
             "if_shift":true
         },
         "100D20n3dheter-2":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -71,7 +71,7 @@
             "if_shift":true
         },
         "100D20n3dheter-3":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -85,7 +85,7 @@
             "if_shift":true
         },
         "100D20n3d-6":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -99,7 +99,7 @@
             "if_shift":true
         },
         "100D20n3dheter-4":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -113,7 +113,7 @@
             "if_shift":true
         },
         "100D20n3dheter-5":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,
@@ -127,7 +127,7 @@
             "if_shift":true
         },
         "100D20n3dheter-6":{
-            "group_num":20,
+            "node_num":20,
             "dimension":100,
 			"conforming":false,
             "upper_bound": 100,

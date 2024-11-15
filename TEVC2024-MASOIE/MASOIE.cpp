@@ -144,6 +144,9 @@ void agent_function(Framework* handler){
             MPI_Request terminate_send_req[nei_num]; 
             for(int k = 0;k<nei_num;k++)    
                 handler->Message_Isend(&terminate_flag,1,MPI_INT,nei_list[k],5,&terminate_send_req[k]);
+            for(int k:activate_nei_idx){
+                MPI_Cancel(&message_recv_req[k]);
+            }
             break;
         }
     }
